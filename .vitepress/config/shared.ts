@@ -8,7 +8,7 @@ import { search as koSearch } from './ko'
 export const shared = defineConfig({
   title: 'VitePress',
 base: '/test2/',
-  outDir: '../public',
+  outDir: './.vitepress/dist',
   rewrites: {
     'en/:rest*': ':rest*'
   },
